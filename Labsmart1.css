@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Pacifico');
+
+body{
+	font-family:Pacifico; 
+	margin: 0;
+	
+}
+
+h1{
+	text-align:center;
+	border:1px solid #ccc;
+	width:100%;
+	background: #ddd;
+	text-shadow:1px 1px 1px #fff;
+	box-shadow: 0 5px 5px 5px rgba(0,0,0,0.6);
+	margin:5px;
+	margin-bottom:30px;
+	
+}
+
+form{
+	
+	min-width:1100px;
+}
+label.alinha{
+display:inline-block;
+width:200px;
+margin-bottom:10px;
+text-align:right;
+padding-right:5px;
+}
+label.obrigatorio{
+	font-weight:bold;
+	color: red;	
+}
+fieldset{
+	border: 1px solid #ccc;
+	box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+	width:45%;
+	margin: 0 auto;
+	height:350px;
+	background:#FFE4C4;
+	padding:20px;
+	margin-bottom: 30px;
+}
+legend{
+	
+	background:#fff;
+}
+div.botoes{
+		clear:both;
+		text-align:center;
+	}
+button{
+		width:200px;
+		height:40px;
+		font-family:Pacifico;
+		font-weight:blod;
+		font-size:18px;
+		margin:10px 5px;
+		}

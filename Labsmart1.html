@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title>Formulario</title>
+<link rel="stylesheet" href="Labsmart1.css">  
+</head> 
+
+<body> 
+<h1>Formulários - Coleta de informação pessoal </h1>
+
+<form action="recebe-dados.php" nethod="post" enctype="multipart/form-data">
+
+<fieldset>
+<legend>Informação pessoais</legend>
+
+
+<label class="alinha">Nome: </label>
+<input type="text" name="nome-do-usuario" placeholder="Seu nome aqui..." autofocus id="nome" required>
+<br>
+
+<label class="alinha"> E-mail: </label>
+<input type="email" name="email"autofocus id="nome" required> <br>
+
+<label class="alinha">Telefone:</label>
+<input type="number" name="telefone"autofocus id="nome" required><br>
+
+<label class="alinha">Endereço: </label>
+<input type="text" name="endereco-do-usuario"autofocus id="nome" required ><br>
+
+
+<label class="alinha"> Estado: </label>
+<select name="estado">
+<option>Santa Catarina</option>
+<option>Rio Grande do Sul</option>
+<option>Curitiba</option>
+<option>São Paulo</option>
+</select><br>
+<div class="botoes">
+
+<button type="submit" name="enviar-dados">Enviar Cadastro</button>
+</div>
+
+
+</fieldset> 
+    
+</body> 
+</html>
